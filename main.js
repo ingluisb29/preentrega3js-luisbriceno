@@ -82,6 +82,14 @@ btnAceptar.addEventListener("click",filtrarPostre)
 
 
 
+localStorage.setItem("disponible", JSON.stringify(menu))
+alert("disponible guardado")
+
+localStorage.clear()
+
+
+
+
 
 
 
